@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Boost",
+    "slug": "boost-mobile",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon-boost.png",
+    "splash": {
+      "image": "./assets/images/splash-boost.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cs52.boost",
+      "publishBundlePath": "ios/boost/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/boost/Supporting/shell-app-manifest.json",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.911387247122-1joui15ksueilqqsse016o2f94585tmt"
+        }
+      },
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Allow Boost to use your location. We will use it to gather further insights on your productivity usage on top of the data already provided.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Allow Boost to use your location. We will use it to gather further insights on your productivity usage on top of the data already provided.",
+        "NSLocationAlwaysUsageDescription": "Allow Boost to use your location. We will use it to gather further insights on your productivity usage on top of the data already provided."
+      }
+    },
+    "isDetached": true,
+    "detach": {
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.10.6-sdk32.0.0-e50ee83a-41bd-4965-b067-4c815a3b3fcc.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.10.8-sdk32.0.0-bca0f957-de78-44c8-91ed-f3151372d79d.tar.gz"
+    },
+    "scheme": "exp14a2d3d016ea4231b40608ffa43a7f00",
+    "android": {
+      "package": "com.cs52_boost",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    },
+    "description": ""
+  }
+}
